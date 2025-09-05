@@ -2,34 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>SHECODES PROJECT</title>
+    <title>PhumzOnline</title>
 </head>
 <body>
-    <h1>NAME GENERATOR </h1>
-<div>
-    <form>
-        <label for="name">which gender name do you want?:</label><br>
-          <input type="radio" id="gender" value="Girl">
-          <label for="gender">Girl</label><br>
-          <input type="radio" id="gender"  value="Boy">
-          <label for="gender">Boy</label><br>
+    <h1> GET A NAME TODAY</h1>
+
+
+    <form id = "name-generator">
+        <input
+          type="text"
+          placeholder="Enter Gender"
+          autofocus
+          required
+          autocomplete="off"
+        
+        />
     </form>
+    <br>
+     <input type="submit" id="submit-button" />
 
-    <p>Click the button to generate a name</p>
-     <input type="submit">
+      <footer>  Check out my <a href="https://github.com/Palesa-1">github</a> </footer>
 
-     <br>
-     
-</div>
-
-    <h2>Generated Name</h2>
-    <p id="name">Your name will appear here</p>
-
-
-  <footer><a href="https://github.com/Palesa-1/sheCodes-projects">This is my work</a></footer> 
-
-
+<script src="index.js"></script>
 </body>
 </html>
